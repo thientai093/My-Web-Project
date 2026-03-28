@@ -10,10 +10,26 @@ header{
 }
 
 nav{
-    background-color: #34495e;
-    padding: 10px;
+    display: inline-block;
+    width: 80%;
 }
-
+naw img{
+    width: 10%
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    row-gap: 20px;
+}
+.grid img{
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 main{
     background-color: #ffffff;
     font-size: 1rem;
